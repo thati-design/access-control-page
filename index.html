@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Access Control</title>
+
+</head>
+
+<body>
+
+    <h2>Enter Password to Access the Document</h2>
+
+    <input type="password" id="password" placeholder="Enter Password">
+
+    <button onclick="checkPassword()">Submit</button>
+
+    
+
+    <!-- The message and link to the document -->
+
+    <div id="link">
+
+        <p>Access granted! Here is your document:</p>
+
+        <a href="https://docs.google.com/spreadsheets/d/10rIM5Z74Pavmv6eiW9hXriYlMQvqO6X5LzhYziGQ8WY/edit" target="_blank">Open Document</a>
+
+    </div>
+
+
+
+    <!-- The GIF image to display if the password is incorrect -->
+
+    <div id="gif">
+
+        <p>Incorrect password!</p>
+
+        <img src="AA6A5193-4A86-4943-8E38-F53E8475F837.gif" alt="Incorrect Password Image">
+
+    </div>
+
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+
+<style>
+
+    /* Hide the link and GIF image initially */
+
+    #link, #gif {
+
+        display: none;
+
+    }
+
+</style>
+
